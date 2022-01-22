@@ -20,6 +20,13 @@ const createAcountController = async (req, res, next) => {
   return res.status(201).json({ user: newUser });
 };
 
+const getAll = async (_req, res) => {
+  const result = await service.getAll();
+
+  return res.status(200).json({ result });
+};
+
 module.exports = {
   createAcountController,
+  getAll,
 };
