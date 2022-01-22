@@ -1,4 +1,4 @@
-const { getAcountByCPF, createAcount } = require('../models');
+const { getAcountByCPF, createAcount, getAllAcounts } = require('../models');
 
 const { errorBusiness } = require('../helpers/errors');
 
@@ -14,4 +14,9 @@ const validadeCreate = async (name, CPF) => {
   return userCreated;
 };
 
-module.exports = { validadeCreate };
+const getAll = async () => {
+  const result = await getAllAcounts();
+  return result;
+};
+
+module.exports = { validadeCreate, getAll };
