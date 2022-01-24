@@ -1,7 +1,7 @@
 const Joi = require('@hapi/joi');
 
 const validateTransactions = (req, _res, next, fields) => {
-  const minNameLength = 5;
+  const minNameLength = 11;
 
   const { error } = Joi.object({
     [fields.CPForigin]: Joi.string().min(minNameLength).not().empty()

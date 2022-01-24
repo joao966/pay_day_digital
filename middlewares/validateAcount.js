@@ -6,7 +6,7 @@ const validateAcount = (req, _res, next) => {
   const { error } = Joi.object({
     name: Joi.string().min(minNameLength).not().empty()
 .required(),
-    CPF: Joi.string().min(1).not().empty()
+    CPF: Joi.string().min(11).not().empty()
 .required(),
   }).validate(req.body);
   
