@@ -18,7 +18,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * JOI
 
 
-## LINK
+## Link
 
 - LINK REPOSITÓRIO: https://github.com/joao966/pay_day_digital
 
@@ -39,6 +39,9 @@ OBS: Inicialize o projeto com o comando:
 OBS: Para executar os testes execute o comando:
 
      npm test
+
+
+## Descrição
 
 * /acount
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
