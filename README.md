@@ -46,7 +46,8 @@ OBS: Para executar os testes execute o comando:
 * /acount
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 
- payload:
+ PAYLOAD:
+ <br />
             name: string maior de 5 caracteres.
             <br />
             CPF: string com no mínimo 11 caracteres.  
@@ -57,7 +58,8 @@ Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 * /transactions
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 
- payload:
+ PAYLOAD:
+  <br />
             CPForigin: string com no mínimo 11 caracteres >  Este campo não pode ser vazio!
             <br />
             CPFdestiny: string com no mínimo 11 caracteres > Este campo não pode ser vazio!.
