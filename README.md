@@ -39,16 +39,24 @@ OBS: Para executar os testes execute o comando: npm test
 * /acount
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 
- payload: name: string maior de 5 caracteres.
+ payload: 
+ 
+            name: string maior de 5 caracteres.
+ 
             CPF: string maior com no mínimo 11 caracteres.  
+            
             Observação: Estes campos não podem ser vazios!
 
 
 * /transactions
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 
- payload: CPForigin: string maior com no mínimo 11 caracteres >  Este campo não pode ser vazio!.
+ payload:
+            
+            CPForigin: string maior com no mínimo 11 caracteres >  Este campo não pode ser vazio!.
+ 
             CPFdestiny: string maior com no mínimo 11 caracteres > Este campo não pode ser vazio!.  
+            
             descripition: string de no mínimo um caractere > Este campo é opcional!.
             
 
