@@ -1,6 +1,6 @@
 ## 💻 Sobre o projeto
 
- API REST com algumas funções essenciais relacionadas ao gerenciamento de contas bancárias. A API POSSUI DOIS END-POINTS COM VALIDAÇÕES E FOI UTILIZADO A ARQUITETURA MSC.
+ API REST com algumas funções essenciais relacionadas ao gerenciamento de contas bancárias. A API possui dois END-POINT'S com validações, o projeto foi      construído utilizando a arquitetura MSC.
 
 Os usuários poderão:
 
