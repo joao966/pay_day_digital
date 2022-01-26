@@ -1,6 +1,6 @@
 ## 💻 Sobre o projeto
 
- API REST com algumas funções essenciais relacionadas ao gerenciamento de contas bancárias. A API POSSUI DOIS END-POINTS COM VALIDAÇÕES.
+ API REST com algumas funções essenciais relacionadas ao gerenciamento de contas bancárias. A API POSSUI DOIS END-POINTS COM VALIDAÇÕES E FOI UTILIZADO A ARQUITETURA MSC.
 
 Os usuários poderão:
 
@@ -21,8 +21,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## LINK
 
 - LINK REPOSITÓRIO: https://github.com/joao966/pay_day_digital
-
-## PROJETO DESENVOLVIDO USANDO A ARQUITETURA MSC!
 
 
 
@@ -45,7 +43,8 @@ OBS: Para executar os testes execute o comando:
 * /acount
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 
- payload:   name: string maior de 5 caracteres.
+ payload:
+            name: string maior de 5 caracteres.
             <br />
             CPF: string maior com no mínimo 11 caracteres.  
             <br />
@@ -55,7 +54,8 @@ Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 * /transactions
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 
- payload:   CPForigin: string maior com no mínimo 11 caracteres >  Este campo não pode ser vazio!
+ payload:
+            CPForigin: string maior com no mínimo 11 caracteres >  Este campo não pode ser vazio!
             <br />
             CPFdestiny: string maior com no mínimo 11 caracteres > Este campo não pode ser vazio!.
             <br />
