@@ -21,7 +21,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## LINK
 
 - LINK REPOSITÓRIO: https://github.com/joao966/pay_day_digital
-=======
+
 
 
 ## 🚀 Como executar o projeto
@@ -35,15 +35,14 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 Inicialize o projeto com o comando: npm start
 Para executar os teste execute o comando: npm test
 
-##/acount
+* /acount
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 - payload : name: string maior de 5 caracteres.
             CPF: string maior com no mínimo 11 caracteres.  
+            Observação: Estes campos não podem ser vazios!
 
-            OBS: Estes campos não podem ser vazios!
 
-
-##/transactions
+* /transactions
 Este endpoint é capaz de criar contas. Forneça o payload corretamente:
 - payload : CPForigin: string >  Este campo não pode ser vazio!.
             CPFdestiny: string > Este campo não pode ser vazio!.  
